@@ -1,10 +1,9 @@
 
 # 📈 Twitter/X Data Engineering Pipeline
 
-This project implements an automated ETL (Extract, Transform, Load) pipeline that extracts tweet data from the X (formerly Twitter) API v2, transforms the response using Python and Pandas, and loads the refined dataset into Amazon S3.
+Automated ETL (Extract, Transform, Load) pipeline that extracts tweet data from the Twitter/X API, transforms API response(json payload), and loads the refined dataset into Amazon S3.
 
 Apache Airflow orchestrates the ETL workflow, while an Amazon EC2 instance hosts the Airflow environment.
-
 
 ## 🛠️ Tech Stack
 
