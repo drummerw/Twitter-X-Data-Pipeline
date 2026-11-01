@@ -1,0 +1,26 @@
+﻿# AWS private keys and credentials
+*.pem
+.aws/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated data
+*.csv
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+
+# IDE
+.vscode/
