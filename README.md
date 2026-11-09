@@ -45,7 +45,7 @@ Output:
 
 **4. Orchestration**
 
-Apache Airflow orchestrates the ETL process using a PythonOperator.
+Apache Airflow orchestrates the ETL process.
 The DAG is configured with:
 - Daily scheduling
 - One retry
